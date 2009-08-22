@@ -13,6 +13,7 @@ requires:
   CatalystX::RoleApplicator: 0
   HTTP::BrowserDetect: 0
   Moose: 0
+  Test::More: 0.88
   aliased: 0
   namespace::autoclean: 0
-version: 0.01
+version: 0.02

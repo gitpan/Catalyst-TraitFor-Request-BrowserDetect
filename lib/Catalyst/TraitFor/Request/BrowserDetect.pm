@@ -1,12 +1,11 @@
 package Catalyst::TraitFor::Request::BrowserDetect;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 # ABSTRACT: Browser detection for Catalyst::Requests
 
 use Moose::Role;
 use aliased 'HTTP::BrowserDetect';
 use namespace::autoclean;
-
 
 
 has browser => (
@@ -35,7 +34,7 @@ Catalyst::TraitFor::Request::BrowserDetect - Browser detection for Catalyst::Req
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
